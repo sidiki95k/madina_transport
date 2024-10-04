@@ -1,0 +1,13 @@
+Generic single-database configuration.
+
+
+# Alembic Migrations
+
+This folder contains the Alembic database migrations for the Madina Transport project. Alembic is a tool used to manage database schema changes in SQLAlchemy projects.
+
+## Key Commands
+
+1. **Creating a new migration**:
+   When you make changes to your database models, you need to create a new migration script to reflect those changes in the database schema:
+   ```bash
+   alembic revision --autogenerate -m "description of migration"
